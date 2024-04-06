@@ -1,12 +1,12 @@
 function Header(){
     return (
         <header>
-            <h1>Hi Header</h1>
+            <h1>Chandirasegaran</h1>
             <nav>
                 <ul>
-                    <li>Item 1</li>
-                    <li>Item 2</li>
-                    <li>Item 3</li>
+                    <li>Home</li>
+                    <li>Projects</li>
+                    <li>Contacts</li>
                 </ul>
             </nav>
         </header>

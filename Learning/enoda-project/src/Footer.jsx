@@ -1,7 +1,7 @@
 function Footer(){
     return(
         <footer>
-            <p>Hi From Footer</p>
+            <p>&copy; Segar</p>
         </footer>
     );
 }
