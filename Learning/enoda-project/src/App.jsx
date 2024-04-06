@@ -2,6 +2,7 @@ import Header from "./Header";
 import Footer from "./Footer";
 import Qualifications from "./Qualifications";
 import About from "./About";
+import Button from "./Button-Resume/Button";
 
 function App() {
 
@@ -9,6 +10,7 @@ function App() {
     <>
       <Header />
       <About />
+      <Button/>
       <Qualifications/> 
       <Footer />
     </>
