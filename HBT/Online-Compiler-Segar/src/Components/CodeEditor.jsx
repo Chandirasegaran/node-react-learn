@@ -17,7 +17,7 @@ const CodeEditor = () => {
 
     const fetchLanguageInfo = async () => {
         try {
-            const response = await fetch("http://localhost:3000/c");
+            const response = await fetch("http://localhost:3000/python");
             const data = await response.json();
             setLanguage(data.name); // Set the language state
         } catch (error) {
