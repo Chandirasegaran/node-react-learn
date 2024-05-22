@@ -3,13 +3,11 @@ import { AppModule } from './app.module';
 import * as session from 'express-session';
 import * as passport from 'passport';
 import connectRedis from 'connect-redis';
-import { RedisClient } from 'redis';
 import Redis from 'ioredis';
 
 async function bootstrap() {
   const app = await NestFactory.create(AppModule);
-
-  // const RedisStore = connectRedis(session);
+  const RedisStore = connectRedis(session);
   const redisClient = new Redis();
 
   app.use(
@@ -27,4 +25,5 @@ async function bootstrap() {
 
   await app.listen(3000);
 }
+
 bootstrap();
