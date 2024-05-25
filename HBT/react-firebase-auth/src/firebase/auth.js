@@ -36,6 +36,18 @@ export const doPasswordReset = (email) => {
 export const doPasswordChange = (password) => {
   return updatePassword(auth.currentUser, password);
 };
+// export const doPasswordChange = (oldPassword, newPassword) => {
+//   const user = auth.currentUser;
+
+//   // Reauthenticate user with old password
+//   const credential = firebase.auth.EmailAuthProvider.credential(user.email, oldPassword);
+//   return user.reauthenticateWithCredential(credential)
+//       .then(() => {
+//           // Password successfully reauthenticated, now update the password
+//           return user.updatePassword(newPassword);
+//       });
+// };
+
 
 export const doSendEmailVerification = () => {
   return sendEmailVerification(auth.currentUser, {
