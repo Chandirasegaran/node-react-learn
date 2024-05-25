@@ -6,8 +6,6 @@ import { useNavigate } from 'react-router-dom'
 // import { doSignOut } from '../../firebase/auth'
 import { doSignOut } from '../../../firebase/auth' // Import doSignOut
 
-
-
 const ChangePassword = () => {
     const navigate = useNavigate()
 
