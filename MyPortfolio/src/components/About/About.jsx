@@ -1,34 +1,49 @@
-import React from 'react'
-import { getImageUrl } from '../../utils'
-import styles from './About.module.css'
-export const About = () => {
-    return (
-        <section className={styles.container} id="about">
-            <h2 className={styles.title}>About</h2>
-            <div className={styles.content}>
-                <img src={getImageUrl("about/aboutImage.png")} alt="Me Sitting with a Laptop" className={styles.aboutImage} />
-                <ul className={styles.aboutItems}>
-                    <li className={styles.aboutItem}><img src={getImageUrl("about/cursorIcon.png")} alt="CursorIcon" />
-                        <div className={styles.aboutItemText}>
-                            <h3>Frontend Developer</h3>
-                            <p>I'm a Frontend Developer with experience in building Resposive Website</p>
-                        </div>
-                    </li>
-                    <li className={styles.aboutItem}><img src={getImageUrl("about/serverIcon.png")} alt="CursorIcon" />
-                        <div className={styles.aboutItemText}>
-                            <h3>Frontend Developer</h3>
-                            <p>I'm a Frontend Developer with experience in building Resposive Website</p>
-                        </div>
-                    </li>
-                    <li className={styles.aboutItem}><img src={getImageUrl("about/cursorIcon.png")} alt="CursorIcon" />
-                        <div className={styles.aboutItemText}>
-                            <h3>Frontend Developer</h3>
-                            <p>I'm a Frontend Developer with experience in building Resposive Website</p>
-                        </div>
-                    </li>
-                </ul>
-            </div>
+import React from "react";
 
-        </section>
-    )
-}
+import styles from "./About.module.css";
+import { getImageUrl } from "../../utils";
+
+export const About = () => {
+  return (
+    <section className={styles.container} id="about">
+      <h2 className={styles.title}>About</h2>
+      <div className={styles.content}>
+        <img
+          src={getImageUrl("about/aboutImage1.webp")}
+          alt="Me sitting with a laptop"
+          className={styles.aboutImage}
+        />
+        <ul className={styles.aboutItems}>
+          <li className={styles.aboutItem}>
+            <img src={getImageUrl("about/serverIcon.png")} alt="Server icon" />
+            <div className={styles.aboutItemText}>
+              <h3>Backend Developer</h3>
+              <p>
+                I have experience developing fast and optimised back-end systems
+                and APIs
+              </p>
+            </div>
+          </li>
+          <li className={styles.aboutItem}>
+            <img src={getImageUrl("about/flutter.png")} alt="UI icon" />
+            <div className={styles.aboutItemText}>
+              <h3>Flutter App Developer</h3>
+              <p>
+                I have Developed multiple Cross Platform Apps using Flutter.
+              </p>
+            </div>
+          </li>
+          <li className={styles.aboutItem}>
+            <img src={getImageUrl("about/cursorIcon.png")} alt="Cursor icon" />
+            <div className={styles.aboutItemText}>
+              <h3>Frontend Developer</h3>
+              <p>
+                I'm a frontend developer with experience in building responsive.
+              </p>
+            </div>
+          </li>
+        </ul>
+      </div>
+    </section>
+  );
+};

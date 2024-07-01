@@ -1,26 +1,19 @@
 [
   {
-    "title": "Project A",
+    "title": "Online Radio App",
     "imageSrc": "projects/project.png",
-    "description": "This is a project made to learn the latest languages by building an app.",
-    "skills": ["React", "Express", "Node"],
-    "demo": "https://www.example.com",
-    "source": "https://www.github.com"
+    "description": "Online FM Streaming app made with Flutter",
+    "skills": ["Flutter", "Dart"],
+    "demo": "#",
+    "source": "#"
   },
   {
-    "title": "Project B",
+    "title": "Online Radio App",
     "imageSrc": "projects/project.png",
-    "description": "This is a project made to learn the latest languages by building an app.",
-    "skills": ["React", "Express", "Node", "Sass"],
-    "demo": "https://www.example.com",
-    "source": "https://www.github.com"
-  },
-  {
-    "title": "Project C",
-    "imageSrc": "projects/project.png",
-    "description": "This is a project made to learn the latest languages by building an app.",
-    "skills": ["React", "Express", "Node"],
-    "demo": "https://www.example.com",
-    "source": "https://www.github.com"
+    "description": "Online FM Streaming app made with Flutter",
+    "skills": ["Flutter", "Dart"],
+    "demo": "#",
+    "source": "#"
   }
+ 
 ]

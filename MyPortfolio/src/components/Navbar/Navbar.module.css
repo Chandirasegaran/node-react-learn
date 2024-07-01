@@ -53,7 +53,13 @@
     gap: 11px;
     z-index: 3;
   }
-
+  .title {
+    font-size: 25px;
+    font-weight: 600;
+    text-decoration: none;
+    color: var(--color-text);
+  }
+  
   .menuBtn {
     display: block;
     cursor: pointer;

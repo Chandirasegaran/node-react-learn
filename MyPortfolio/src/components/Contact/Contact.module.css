@@ -61,4 +61,18 @@
   .links {
     align-items: center;
   }
+  .link a {
+    font-size: 15px;
+  }
+  .text h2 {
+    align-items: center;
+    font-size: 45px;
+  }
+  
+  .text p {
+    font-size: 25px;
+  }
+  .ico{
+    width: 25px;
+  }
 }
