@@ -1,0 +1,58 @@
+button {
+    border-radius: 50%;
+    width: 55px;
+    height: 55px;
+    border: none;
+}
+
+.number {
+    background-color: #ddd;
+}
+
+.number:hover {
+    background-color: #b5b0b0;
+}
+
+.operator {
+    background-color: orange;
+    color: white;
+}
+
+.operator:hover {
+    background-color: rgb(214, 139, 0);
+}
+
+.e-operator {
+    background-color: #088e25;
+    color: white;
+
+}
+
+.e-operator:hover {
+    background-color: #06721d;
+}
+
+.c-operator {
+    background-color: #c30d0d;
+    color: white;
+
+}
+
+.c-operator:hover {
+    background-color: #8f0909;
+}
+
+
+@media (max-width: 768px) {
+    button {
+        width: 35px;
+        height: 35px;
+    }
+}
+
+@media (max-width: 920px) {
+    button {
+        width: 45px;
+        height: 45px;
+    }
+}
